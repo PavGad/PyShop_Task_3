@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8F3E2E20-3139-4E10-B2E9-0C68A84C0A96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4E772BF3-85F1-4AEF-B6BB-B012B7F87E90}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gRPCBillingService.Api", "gRPCBillingService.Api\gRPCBillingService.Api.csproj", "{A7446ADF-D349-4A7E-82F2-7FD3032DA8C1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C6758DE8-D6E9-48C5-B6E4-CA328BBD2A50} = {C6758DE8-D6E9-48C5-B6E4-CA328BBD2A50}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gRPCBillingService.Shared", "gRPCBillingService.Shared\gRPCBillingService.Shared.csproj", "{C1DF2894-370A-4B87-A20F-30C2DE045D28}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gRPCBillingService.Domain", "gRPCBillingService.Domain\gRPCBillingService.Domain.csproj", "{63B11D2D-116A-46F3-9CF6-926014F763A1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gRPCBillingService.Persistence", "gRPCBillingService.Persistence\gRPCBillingService.Persistence.csproj", "{C6758DE8-D6E9-48C5-B6E4-CA328BBD2A50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7446ADF-D349-4A7E-82F2-7FD3032DA8C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7446ADF-D349-4A7E-82F2-7FD3032DA8C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7446ADF-D349-4A7E-82F2-7FD3032DA8C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7446ADF-D349-4A7E-82F2-7FD3032DA8C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1DF2894-370A-4B87-A20F-30C2DE045D28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1DF2894-370A-4B87-A20F-30C2DE045D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1DF2894-370A-4B87-A20F-30C2DE045D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1DF2894-370A-4B87-A20F-30C2DE045D28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63B11D2D-116A-46F3-9CF6-926014F763A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63B11D2D-116A-46F3-9CF6-926014F763A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63B11D2D-116A-46F3-9CF6-926014F763A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63B11D2D-116A-46F3-9CF6-926014F763A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6758DE8-D6E9-48C5-B6E4-CA328BBD2A50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6758DE8-D6E9-48C5-B6E4-CA328BBD2A50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6758DE8-D6E9-48C5-B6E4-CA328BBD2A50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6758DE8-D6E9-48C5-B6E4-CA328BBD2A50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A7446ADF-D349-4A7E-82F2-7FD3032DA8C1} = {8F3E2E20-3139-4E10-B2E9-0C68A84C0A96}
+		{C1DF2894-370A-4B87-A20F-30C2DE045D28} = {8F3E2E20-3139-4E10-B2E9-0C68A84C0A96}
+		{63B11D2D-116A-46F3-9CF6-926014F763A1} = {8F3E2E20-3139-4E10-B2E9-0C68A84C0A96}
+		{C6758DE8-D6E9-48C5-B6E4-CA328BBD2A50} = {8F3E2E20-3139-4E10-B2E9-0C68A84C0A96}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A5AF902-FF9A-46CC-A5C8-09FEE6ACB55F}
+	EndGlobalSection
+EndGlobal
